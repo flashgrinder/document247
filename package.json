@@ -1,5 +1,5 @@
 {
-  "name": "online_store",
+  "name": "document247",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -45,7 +45,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashgrinder/document247"
+    "url": "git+https://github.com/flashgrinder/document247.git"
   },
   "bugs": {
     "url": "https://github.com/flashgrinder/document247/issues"
