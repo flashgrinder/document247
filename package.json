@@ -45,10 +45,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashgrinder/htmltemplate.git"
+    "url": "git+https://github.com/flashgrinder/document247"
   },
   "bugs": {
-    "url": "https://github.com/flashgrinder/htmltemplate/issues"
+    "url": "https://github.com/flashgrinder/document247/issues"
   },
-  "homepage": "https://github.com/flashgrinder/htmltemplate#readme"
+  "homepage": "https://github.com/flashgrinder/document247#readme"
 }
