@@ -1,0 +1,38 @@
+.general-screen {
+    position: relative;
+    z-index: 100;
+    &__body {
+        display: flex;
+        height: calc(100vh - 70px);
+    }
+    &__text {
+        max-width: 550px;
+        margin-top: 150px;
+        margin-bottom: auto;
+        position: relative;
+        z-index: 100;
+    }
+    &__heading {
+        margin: 0;
+    }
+    &__title {
+        display: block;
+    }
+    &__descr {
+        margin: 30px 0 0 0;
+    }
+    &__btn {
+        margin-top: 30px;
+    }
+    &__image {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: url('../img/bg/general-bg.png') bottom right no-repeat;
+        background-color: var(--primary-color);
+        background-size: 100% auto;
+    }
+}

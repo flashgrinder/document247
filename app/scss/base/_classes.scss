@@ -1,0 +1,47 @@
+.title-main {
+    font-family: var(--font-gotham);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+    &_big {
+        font-size: 26px;
+    }
+    &_medium {
+        font-size: 20px;
+    }
+    &_color {
+        &_dark {
+           color: var(--dark-color); 
+        }
+        &_white {
+            color: var(--white-color);
+        }
+    }
+    &_light {
+        font-weight: normal;
+    }
+}
+
+.title-second {
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--primary-color);
+}
+
+.text-normal {
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    &_white {
+        color: var(--white-color);
+    }
+    &_dark {
+        color: var(--dark-color); 
+    }
+}

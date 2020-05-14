@@ -1,16 +1,30 @@
 @import "./base/variables";
 @import "./base/smart-grid";
+// Fonts
 @import "./base/font";
+// Base
 @import "./base/base";
+// Base Classes
+@import "./base/classes";
 /* Blocks */
+// Header
 @import "./blocks/header/header";
+// Logo
 @import "./blocks/logo/logo";
+// Menu
 @import "./blocks/menu/menu";
+// Contact-phone
 @import "./blocks/contact-phone/contact-phone";
-
+// Main
+@import "./blocks/main/main";
+// General-screen
+@import "./blocks/general-screen/general-screen";
+// Button
+@import "./blocks/button/button";
+// Footer
 @import "./blocks/footer/footer";
 /* Themes */
-@import "./themes/main-color";
+@import "./themes/primary-color";
 @import "./themes/dark-color";
 @import "./themes/gray-color";
 @import "./themes/white-color";
