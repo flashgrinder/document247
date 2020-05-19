@@ -1,0 +1,15 @@
+.services {
+    padding: 30px 0 30px 0;
+    &__title {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+    &__grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__column {
+        @include size(4);
+    }
+}

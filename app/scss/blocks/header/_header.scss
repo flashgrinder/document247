@@ -15,4 +15,9 @@
         top: 0;
         z-index: 500;
     }
+    &_theme {
+        &_main {
+            background-color: var(--color-primary);
+        }
+    }
 }

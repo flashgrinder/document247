@@ -1,30 +1,32 @@
+/* Variables */
 @import "./base/variables";
 @import "./base/smart-grid";
-// Fonts
+/* Fonts */
 @import "./base/font";
-// Base
+/* Base */
 @import "./base/base";
-// Base Classes
+/* Base Classes */
 @import "./base/classes";
 /* Blocks */
-// Header
-@import "./blocks/header/header";
-// Logo
-@import "./blocks/logo/logo";
-// Menu
-@import "./blocks/menu/menu";
-// Contact-phone
-@import "./blocks/contact-phone/contact-phone";
-// Main
-@import "./blocks/main/main";
-// General-screen
-@import "./blocks/general-screen/general-screen";
-// Button
+/* Button */
 @import "./blocks/button/button";
-// Footer
+/* Page */
+@import "./blocks/page/page";
+/* Header */
+@import "./blocks/header/header";
+/* Logo */
+@import "./blocks/logo/logo";
+/* Menu */
+@import "./blocks/menu/menu";
+/* Contact-phone */
+@import "./blocks/contact-phone/contact-phone";
+/* Main */
+@import "./blocks/main/main";
+/* General-screen */
+@import "./blocks/general-screen/general-screen";
+/* Services */
+@import "./blocks/services/services";
+/* Card-services */
+@import "./blocks/card-services/card-services";
+/* Footer */
 @import "./blocks/footer/footer";
-/* Themes */
-@import "./themes/primary-color";
-@import "./themes/dark-color";
-@import "./themes/gray-color";
-@import "./themes/white-color";

@@ -31,17 +31,31 @@
         border-right: 20px solid transparent;
     }
     &_white {
-        color: var(--primary-color);
-        background: var(--white-color);
+        color: var(--color-primary);
+        background: var(--color-white);
         &::before {
-            border-bottom: 45px solid var(--white-color);
+            border-bottom: 45px solid var(--color-white);
         }
         &::after {
-            border-top: 45px solid var(--white-color);
+            border-top: 45px solid var(--color-white);
         }
         &:hover {
-            color: var(--primary-color);
-            background: var(--white-color);
+            color: var(--color-primary);
+            background: var(--color-white);
+        }
+    }
+    &_primary {
+        color: var(--color-white);
+        background: var(--color-primary);
+        &::before {
+            border-bottom: 45px solid var(--color-primary);
+        }
+        &::after {
+            border-top: 45px solid var(--color-primary);
+        }
+        &:hover {
+            color: var(--color-white);
+            background: var(--color-primary);
         }
     }
 }

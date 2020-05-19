@@ -1,0 +1,31 @@
+.card-services {
+    &__header {
+        background: var(--color-white);
+        padding: 20px 0 20px 25px;
+    }
+    &__title {
+        height: 40px;
+    }
+    &__figure {
+        margin: 0;
+        height: 200px;
+    }
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__more {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        background: var(--color-dark);
+    }
+    &__footer {
+        margin-top: 30px;
+    }
+    &__actions {
+        text-align: center;
+    }
+}
