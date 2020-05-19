@@ -12,7 +12,22 @@
 	@include debug(rgba(0, 0, 0, 0.3), 1px solid rgb(19, 138, 92));
 }
 
-.title-main {
+.bg-color {
+    &_primary {
+        background-color: var(--color-primary);
+    }
+    &_white {
+        background-color: var(--color-white);
+    }
+    &_dark {
+        background-color: var(--color-dark);
+    }
+    &_gray {
+        background-color: var(--color-gray);
+    }
+}
+
+.title {
     font-family: var(--font-gotham);
     font-style: normal;
     font-weight: 900;

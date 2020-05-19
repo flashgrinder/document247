@@ -119,7 +119,23 @@ img {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.title-main {
+.bg-color_primary {
+  background-color: var(--color-primary);
+}
+
+.bg-color_white {
+  background-color: var(--color-white);
+}
+
+.bg-color_dark {
+  background-color: var(--color-dark);
+}
+
+.bg-color_gray {
+  background-color: var(--color-gray);
+}
+
+.title {
   font-family: var(--font-gotham);
   font-style: normal;
   font-weight: 900;
@@ -128,27 +144,27 @@ img {
   margin: 0;
 }
 
-.title-main_big {
+.title_big {
   font-size: 26px;
 }
 
-.title-main_medium {
+.title_medium {
   font-size: 20px;
 }
 
-.title-main_color_primary {
+.title_color_primary {
   color: var(--color-primary);
 }
 
-.title-main_color_dark {
+.title_color_dark {
   color: var(--color-dark);
 }
 
-.title-main_color_white {
+.title_color_white {
   color: var(--color-white);
 }
 
-.title-main_weight_light {
+.title_weight_light {
   font-weight: normal;
 }
 
@@ -294,10 +310,6 @@ img {
   z-index: 500;
 }
 
-.header_theme_main {
-  background-color: var(--color-primary);
-}
-
 /* Logo */
 
 .logo {
@@ -382,6 +394,10 @@ img {
   background-color: var(--color-gray);
 }
 
+.main_theme_white {
+  background-color: var(--color-white);
+}
+
 /* General-screen */
 
 .general-screen {
@@ -431,10 +447,6 @@ img {
   background: url("../img/bg/general-bg.png") bottom right no-repeat;
   background-color: var(--color-primary);
   background-size: 100% auto;
-}
-
-.general-screen_theme_main {
-  background-color: var(--color-primary);
 }
 
 /* Services */
