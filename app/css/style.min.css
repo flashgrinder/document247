@@ -468,8 +468,18 @@ img {
 /* Card-services */
 
 .card-services__header {
+  position: relative;
   background: var(--color-white);
   padding: 20px 0 20px 25px;
+}
+
+.card-services__header::before {
+  content: url("../img/svg/icon-doc.svg");
+  position: absolute;
+  right: 0;
+  top: -10px;
+  width: 46px;
+  height: 20px;
 }
 
 .card-services__title {

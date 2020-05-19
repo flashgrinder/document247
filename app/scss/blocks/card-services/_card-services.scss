@@ -1,7 +1,16 @@
 .card-services {
     &__header {
+        position: relative;
         background: var(--color-white);
         padding: 20px 0 20px 25px;
+        &::before {
+            content: url('../img/svg/icon-doc.svg');
+            position: absolute;
+            right: 0;
+            top: -10px;
+            width: 46px;
+            height: 20px;
+        }
     }
     &__title {
         height: 40px;
