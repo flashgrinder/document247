@@ -2,13 +2,5 @@
     &__section {
         max-width: 1920px;
         margin: 0 auto;
-    }  
-    &_theme {
-        &_gray {
-            background-color: var(--color-gray);
-        }
-        &_white {
-            background-color: var(--color-white);
-        }
     }
 }

@@ -1,0 +1,17 @@
+.item-advantage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__title {
+        margin: 0 0 20px 0;
+    }
+    &__icon {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+    }
+}

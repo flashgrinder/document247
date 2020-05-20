@@ -25,6 +25,9 @@
     &_gray {
         background-color: var(--color-gray);
     }
+    &_dark-gray {
+        background-color: var(--color-dark-gray);
+    }
 }
 
 .title {
@@ -67,17 +70,19 @@
     color: var(--color-primary);
 }
 
-.text-normal {
+.text {
     font-family: var(--font-roboto);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    &_white {
-        color: var(--color-white);
-    }
-    &_dark {
-        color: var(--color-dark); 
+    &_color {
+       &_white {
+            color: var(--color-white);
+        }
+        &_dark {
+            color: var(--color-dark); 
+        } 
     }
 }
 

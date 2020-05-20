@@ -8,10 +8,10 @@
 /* Base Classes */
 @import "./base/classes";
 /* Blocks */
-/* Button */
-@import "./blocks/button/button";
 /* Page */
 @import "./blocks/page/page";
+/* Button */
+@import "./blocks/button/button";
 /* Header */
 @import "./blocks/header/header";
 /* Logo */
@@ -28,5 +28,9 @@
 @import "./blocks/services/services";
 /* Card-services */
 @import "./blocks/card-services/card-services";
+/* Advatage */
+@import "./blocks/advantage/advantage";
+/* Item-advantage */
+@import "./blocks/item-advantage/item-advantage";
 /* Footer */
 @import "./blocks/footer/footer";
