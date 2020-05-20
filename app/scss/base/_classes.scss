@@ -6,11 +6,11 @@
 	@include wrapper-full();
 }
 
-.debug {
+/* .debug {
     position: relative;
     z-index: 9999;
 	@include debug(rgba(0, 0, 0, 0.3), 1px solid rgb(19, 138, 92));
-}
+} */
 
 .bg-color {
     &_primary {
@@ -68,6 +68,7 @@
     font-size: 18px;
     line-height: 100%;
     color: var(--color-primary);
+    margin: 0;
 }
 
 .text {
@@ -76,12 +77,16 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    margin: 0;
     &_color {
-       &_white {
-            color: var(--color-white);
+        &_primary {
+            color: var(--color-primary);
         }
         &_dark {
             color: var(--color-dark); 
+        }
+        &_white {
+            color: var(--color-white);
         } 
     }
 }

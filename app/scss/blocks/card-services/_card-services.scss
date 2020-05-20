@@ -1,8 +1,9 @@
 .card-services {
+    max-width: 360px;
     &__header {
         position: relative;
         background: var(--color-white);
-        padding: 20px 0 20px 25px;
+        padding: 20px 25px 20px 25px;
         box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
         &::before {
             content: url('../img/icon/svg/icon-doc.svg');
