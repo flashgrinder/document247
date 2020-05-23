@@ -12,9 +12,8 @@
     }
     &__row {
         max-width: 630px;
-        margin-bottom: 60px;
-        &:last-child {
-            margin-bottom: 0;
-        }
+    }
+    &__row ~ &__row {
+        margin-top: 60px;
     }
 }

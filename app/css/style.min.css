@@ -508,11 +508,10 @@ img {
 
 .advantage__row {
   max-width: 630px;
-  margin-bottom: 60px;
 }
 
-.advantage__row:last-child {
-  margin-bottom: 0;
+.advantage__row ~ .advantage__row {
+  margin-top: 60px;
 }
 
 /* Item-advantage */
