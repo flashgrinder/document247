@@ -552,6 +552,100 @@ img {
   margin-right: 40px;
 }
 
+/* FAQ */
+
+.faq {
+  padding: 30px 0 30px 0;
+}
+
+.faq__title {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.faq__details ~ .faq__details {
+  margin-top: 50px;
+}
+
+.faq__details {
+  position: relative;
+  margin-left: 70px;
+  min-height: 0rem;
+  max-height: 3rem;
+  -webkit-transition: min-height .15s linear, max-height .5s linear;
+  transition: min-height .15s linear, max-height .5s linear;
+  overflow: hidden;
+}
+
+.faq__details .faq__summary {
+  position: relative;
+  display: inline-block;
+  outline: 0;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.faq__details .faq__summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq__details .faq__summary::-moz-list-bullet {
+  list-style-type: none;
+}
+
+.faq__details .faq__summary::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=") no-repeat 50% 50%/20px 20px;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+          transform: translateY(-50%) rotate(0deg);
+  -webkit-transition: -webkit-transform .1s linear;
+  transition: -webkit-transform .1s linear;
+  transition: transform .1s linear;
+  transition: transform .1s linear, -webkit-transform .1s linear;
+}
+
+.faq__details .faq__summary ~ * {
+  margin-top: 20px;
+  padding-left: 30px;
+  opacity: 0;
+  -webkit-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.faq__details[open] {
+  min-height: 2em;
+  max-height: 30em;
+}
+
+.faq__details[open] .faq__summary ~ * {
+  opacity: 1;
+  -webkit-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.faq__details[open] .faq__summary::before {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+          transform: translateY(-50%) rotate(90deg);
+}
+
+.faq__question {
+  display: inline-block;
+}
+
+.faq__question:hover {
+  text-decoration: underline;
+}
+
+.faq__answer {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
 /* Articles */
 
 .articles {
