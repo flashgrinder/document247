@@ -4,6 +4,7 @@
   --color-primary: #FD6B50;
   --color-dark: #595959;
   --color-gray: #F5F5F5;
+  --color-white-gray: #A9A9A9;
   --color-dark-gray: #E5E5E5;
   --color-white: #FFFFFF;
   --font-roboto: 'Roboto', sans-serif;
@@ -761,6 +762,8 @@ img {
   color: var(--color-dark);
   text-decoration: none;
   margin: 0 2px;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 .pagination .page-numbers:hover {
@@ -775,14 +778,18 @@ img {
 
 .pagination .prev,
 .pagination .next {
-  border: 1px solid var(--color-dark);
+  border: 1px solid var(--color-white-gray);
   color: var(--color-dark);
   text-decoration: none;
 }
 
 .pagination .current {
   color: var(--color-white);
-  background-color: var(--color-dark);
+  background-color: var(--color-primary);
+}
+
+.pagination .current:hover {
+  background-color: var(--color-primary);
 }
 
 /* Partners */
