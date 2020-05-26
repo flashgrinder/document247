@@ -437,10 +437,6 @@ img {
 
 /* Card-services */
 
-.card-services {
-  max-width: 360px;
-}
-
 .card-services__header {
   position: relative;
   background: var(--color-white);
@@ -692,10 +688,6 @@ img {
 }
 
 /* Post-card */
-
-.post-card {
-  max-width: 360px;
-}
 
 .post-card__link {
   text-decoration: none;
