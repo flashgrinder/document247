@@ -1228,6 +1228,19 @@ img {
     height: 50px;
     width: 50px;
   }
+
+  .faq__details ~ .faq__details {
+    margin-top: 30px;
+  }
+
+  .faq__details {
+    margin-left: 0;
+    max-height: 4rem;
+  }
+
+  .faq__details[open] {
+    max-height: 50em;
+  }
 }
 
 @media screen and (max-width: 400px) {

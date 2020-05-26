@@ -6,6 +6,7 @@
     }
     &__details ~ &__details {
         margin-top: 50px;
+        @include sm(margin-top, 30px)
     }
     &__details {
         position: relative;
@@ -14,6 +15,10 @@
         max-height: 3rem;
         transition: min-height .15s linear, max-height .5s linear;
         overflow: hidden;
+        @include sm-block {
+            margin-left: 0;
+            max-height: 4rem;
+        }
         & .faq__summary {
             position: relative;
             display: inline-block;
@@ -48,6 +53,7 @@
         &[open] {
             min-height: 2em;
             max-height: 30em;
+            @include sm(max-height, 50em)
             & .faq__summary {
                 & ~ * {
                     opacity: 1;
