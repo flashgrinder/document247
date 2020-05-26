@@ -7,8 +7,8 @@
   --color-white-gray: #A9A9A9;
   --color-dark-gray: #E5E5E5;
   --color-white: #FFFFFF;
-  --font-roboto: 'Roboto', sans-serif;
-  --font-gotham: 'GothamPro', sans-serif;
+  --font-roboto: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-gotham: "GothamPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Fonts */
@@ -170,6 +170,10 @@ img {
 
 .text_color_white {
   color: var(--color-white);
+}
+
+.text_color_white-gray {
+  color: var(--color-white-gray);
 }
 
 /* Blocks */
@@ -790,6 +794,131 @@ img {
 
 .pagination .current:hover {
   background-color: var(--color-primary);
+}
+
+/* Breadcrumbs WP*/
+
+.breadcrumbs a {
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--color-white-gray);
+}
+
+/* Post WP*/
+
+.post__header {
+  position: relative;
+}
+
+.post__figure {
+  margin: 0;
+  height: 500px;
+}
+
+.post__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.post__heading {
+  text-align: center;
+  position: absolute;
+  padding: 80px 40px 40px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(50%, rgba(0, 0, 0, 0.7)), to(rgba(255, 252, 0, 0)));
+  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.7) 50%, rgba(255, 252, 0, 0) 100%);
+}
+
+.post__title {
+  margin-top: 20px;
+}
+
+.post__meta {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.post__category {
+  margin-left: 30px;
+}
+
+.post__author {
+  margin-left: 30px;
+}
+
+.post__share-top {
+  position: absolute;
+  margin-left: auto;
+  right: 40px;
+  bottom: 20px;
+  left: auto;
+}
+
+.post__body {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.post__content {
+  font-family: var(--font-roboto);
+  color: var(--color-dark);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post__content h2,
+.post__content h3,
+.post__content h4 {
+  font-family: var(--font-gotham);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  color: var(--color-dark);
+}
+
+.post__content h2 {
+  font-size: 26px;
+  margin: 1.5em 0 .5em;
+}
+
+.post__content h3 {
+  font-size: 24px;
+  margin: 1.5em 0 .5em;
+}
+
+.post__content h4 {
+  font-size: 20px;
+  margin: 1.5em 0 .5em;
+}
+
+.post__content p {
+  margin: 0 0 25px 0;
+  color: var(--color-dark);
+  line-height: 1.5;
+}
+
+.post__footer {
+  padding: 20px;
+}
+
+.post__share-bottom {
+  border: 6px solid var(--color-white-gray);
+  padding: 20px;
+}
+
+.post__share-title {
+  text-align: center;
+}
+
+.post__share-icon {
+  margin-top: 15px;
+  text-align: center;
 }
 
 /* Partners */
