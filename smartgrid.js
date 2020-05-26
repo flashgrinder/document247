@@ -22,8 +22,8 @@ module.exports = {
 	},
 	xs: {
 			width: "400px",
-			offset: "10px",
-			fields: "5px"
+			offset: "20px",
+			fields: "10px"
 	}
 	},
 	mobileFirst: false
