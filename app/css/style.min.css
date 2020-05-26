@@ -1197,12 +1197,34 @@ img {
     -webkit-justify-content: center;
             justify-content: center;
   }
+
+  .advantage__grid {
+    padding-left: 0;
+  }
+
+  .advantage__row {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .services__column {
     width: -webkit-calc(100% - 30px);
     width: calc(100% - 30px);
+  }
+
+  .advantage {
+    background-image: none;
+  }
+
+  .item-advantage__icon {
+    margin-right: 20px;
+  }
+
+  .item-advantage__img {
+    height: 50px;
+    width: 50px;
   }
 }
 
