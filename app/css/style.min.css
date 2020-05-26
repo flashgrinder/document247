@@ -1216,6 +1216,8 @@ img {
 
   .advantage {
     background-image: none;
+    background-repeat: none;
+    background-position: none;
   }
 
   .item-advantage__icon {
