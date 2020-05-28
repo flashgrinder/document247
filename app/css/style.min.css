@@ -286,6 +286,47 @@ img {
      object-fit: contain;
 }
 
+/* Burger-menu */
+
+.burger-menu {
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  display: none;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.burger-menu__line {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 3px;
+  background: var(--color-white);
+}
+
+.burger-menu__line::before,
+.burger-menu__line::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: var(--color-white);
+}
+
+.burger-menu__line::before {
+  bottom: 0;
+  left: 0;
+  margin-bottom: 9px;
+}
+
+.burger-menu__line::after {
+  top: 0;
+  left: 0;
+  margin-top: 9px;
+}
+
 /* Menu */
 
 .menu {
@@ -1190,6 +1231,12 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .burger-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+  }
+
   .general-screen__body {
     height: -webkit-calc(65vh - 70px);
     height: calc(65vh - 70px);
