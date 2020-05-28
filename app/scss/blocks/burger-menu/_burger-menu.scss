@@ -1,7 +1,7 @@
 .burger-menu {
     @include lg(display, flex);
     width: 30px;
-    height: 25px;
+    height: 20px;
     cursor: pointer;
     display: none;
     align-items: center;
@@ -21,12 +21,12 @@
         &::before {
             bottom: 0;
             left: 0;
-            margin-bottom: 9px;
+            margin-bottom: 8px;
         }
         &::after {
             top: 0;
             left: 0;
-            margin-top: 9px;
+            margin-top: 8px;
         }
     }
 }
