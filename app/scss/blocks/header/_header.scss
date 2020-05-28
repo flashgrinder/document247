@@ -1,9 +1,29 @@
 .header {
     padding: 20px 0;
+    overflow: hidden;
     &__body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    &__burger-menu {
+        @include lg(order, 1)
+    }
+    &__menu {
+        @include lg-block {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: var(--color-primary);
+            right: -100vw;
+            width: 100%;
+            transition: linear .3s;
+            z-index: 101;
+        }
+        &.header__menu_active {
+            opacity: 1;
+            right: 0;
+        }
     }
     &__logo {
         & .logo__img {
