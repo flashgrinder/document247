@@ -1225,8 +1225,13 @@ img {
 
 @media screen and (max-width: 1024px) {
   .general-screen__body {
-    height: -webkit-calc(100vh - 70px);
-    height: calc(100vh - 70px);
+    height: -webkit-calc(65vh - 70px);
+    height: calc(65vh - 70px);
+  }
+
+  .general-screen__text {
+    margin-top: 20px;
+    max-width: 500px;
   }
 }
 

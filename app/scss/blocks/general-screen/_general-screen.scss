@@ -4,7 +4,7 @@
     &__body {
         @include xl(height, calc(60vh - 70px));
         @include to(1024px) {
-            height: calc(100vh - 70px);
+            height: calc(65vh - 70px);
         }
         @include md(height, calc(65vh - 70px));
         @include sm(height, calc(105vh - 70px));
@@ -16,6 +16,10 @@
         height: calc(100vh - 70px);
     }
     &__text {
+        @include to(1024px) {
+            margin-top: 20px;
+            max-width: 500px;
+        }
         @include md-block {
             margin-top: 100px;
             max-width: 400px;
