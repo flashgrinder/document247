@@ -13,6 +13,13 @@
     &__column {
         @include col();
         @include size(3);
+        @include size-sm(12);
+        @include sm-block {
+            margin-bottom: 60px;
+            &:last-child {
+                margin-bottom: 30px;
+            }
+        }
         margin-bottom: 30px;
     }
     &__logo {

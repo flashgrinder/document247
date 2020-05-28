@@ -1252,6 +1252,19 @@ img {
     -webkit-justify-content: center;
             justify-content: center;
   }
+
+  .partners__column {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+  }
+
+  .partners__column {
+    margin-bottom: 60px;
+  }
+
+  .partners__column:last-child {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 400px) {
