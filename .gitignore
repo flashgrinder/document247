@@ -28,5 +28,6 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/windows.
 node_modules/
+build/
 package-lock.json
 .vscode/
