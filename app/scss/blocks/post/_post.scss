@@ -41,29 +41,14 @@
     &__category {
         @include sm(margin, 0 0 15px 0);
         margin-left: 30px;
+        a {
+            text-decoration: none;
+            color: var(--color-white-gray);
+        }
     }
     &__author {
         @include sm(margin, 0 0 15px 0);
         margin-left: 30px;
-    }
-    &__share-top {
-        @include md-block {
-            right: 50%;
-            bottom: 10px;
-            transform: translateX(50%);
-        }
-        @include sm-block {
-            position: relative;
-            margin-right: auto;
-            right: auto;
-            bottom: auto;
-            transform: none; 
-        }
-        position: absolute;
-        margin-left: auto;
-        right: 40px;
-        bottom: 20px;
-        left: auto;
     }
     &__body {
         padding-top: 40px;
@@ -99,20 +84,5 @@
             color: var(--color-dark);
             line-height: 1.5;
         }
-    }
-    &__footer {
-        @include sm(padding, 0);
-        padding: 20px;
-    }
-    &__share-bottom {
-        border: 6px solid rgba(169, 169, 169, 0.2);
-        padding: 20px;
-    }
-    &__share-title {
-        text-align: center;
-    }
-    &__share-icon {
-        margin-top: 15px;
-        text-align: center;
     }
 }
