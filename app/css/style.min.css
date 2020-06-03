@@ -82,11 +82,9 @@ img {
   padding-right: 15px;
 }
 
-/* .debug {
-    position: relative;
-    z-index: 9999;
-	@include debug(rgba(0, 0, 0, 0.3), 1px solid rgb(19, 138, 92));
-} */
+.hide {
+  display: none;
+}
 
 .bg-color_primary {
   background-color: var(--color-primary);
@@ -178,6 +176,76 @@ img {
 
 /* Blocks */
 
+/* Modal WP */
+
+.modal {
+  display: none;
+  padding: 16px 34px 30px;
+  background: var(--color-primary);
+  max-width: 467px;
+  width: 100%;
+}
+
+.modal__body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.modal__header {
+  margin-bottom: 16px;
+}
+
+.modal form {
+  width: 100%;
+  margin: 0;
+}
+
+.modal__field ~ .modal__field {
+  margin-top: 30px;
+}
+
+.modal__input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+}
+
+.modal__actions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.modal__btn {
+  display: inline-block;
+  font-family: var(--font-gotham);
+  background-color: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 53px;
+  -webkit-transition: linear .3s;
+  transition: linear .3s;
+  cursor: pointer;
+}
+
+.modal__btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
 /* Page */
 
 .page {
@@ -206,6 +274,7 @@ img {
   text-align: center;
   padding: 13px 53px;
   z-index: 10;
+  background: transparent;
 }
 
 .button::before {

@@ -6,11 +6,15 @@
 	@include wrapper-full();
 }
 
-/* .debug {
-    position: relative;
-    z-index: 9999;
-	@include debug(rgba(0, 0, 0, 0.3), 1px solid rgb(19, 138, 92));
-} */
+// .debug {
+//     position: relative;
+//     z-index: 9999;
+// 	@include debug(rgba(0, 0, 0, 0.3), 1px solid rgb(19, 138, 92));
+// }
+
+.hide {
+    display: none;
+}
 
 .bg-color {
     &_primary {

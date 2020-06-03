@@ -10,6 +10,7 @@
     text-align: center;
     padding: 13px 53px;
     z-index: 10;
+    background: transparent;
     &::before {
         content: '';
         position: absolute;
