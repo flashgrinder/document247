@@ -1,7 +1,7 @@
 .header {
+    @include md(padding, 10px 0);
     padding: 20px 0;
     transition: linear .1;
-    @include md(padding, 10px 0);
     &__body {
         @include sm(flex-direction, column);
         display: flex;
