@@ -179,7 +179,13 @@ img {
 /* Modal WP */
 
 .modal {
-  display: none;
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   padding: 16px 34px 30px;
   background: var(--color-primary);
   max-width: 467px;
@@ -1474,6 +1480,11 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .modal {
+    padding: 16px 15px 30px;
+    max-width: 320px;
+  }
+
   .header__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1682,6 +1693,10 @@ img {
   .container-full {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .modal {
+    max-width: 300px;
   }
 
   .general-screen__body {
