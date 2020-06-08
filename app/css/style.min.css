@@ -84,7 +84,7 @@ img {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .bg-color_primary {
@@ -182,7 +182,7 @@ img {
 .modal {
   display: none;
   padding: 16px 34px 30px;
-  background: var(--color-primary);
+  background: var(--color-primary) !important;
   max-width: 467px;
   width: 100%;
 }
@@ -217,6 +217,7 @@ img {
   width: 100%;
   padding: 12px;
   border: none;
+  color: var(--color-dark) !important;
 }
 
 .modal__actions {
@@ -227,9 +228,9 @@ img {
 .modal__btn {
   display: inline-block;
   font-family: var(--font-gotham);
-  background-color: transparent;
-  color: var(--color-white);
-  border: 2px solid var(--color-white);
+  background-color: transparent !important;
+  color: var(--color-white) !important;
+  border: 2px solid var(--color-white) !important;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -243,8 +244,8 @@ img {
 }
 
 .modal__btn:hover {
-  background-color: var(--color-white);
-  color: var(--color-primary);
+  background-color: var(--color-white) !important;
+  color: var(--color-primary) !important;
 }
 
 /* Page */
