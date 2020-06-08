@@ -1653,6 +1653,10 @@ li ~ li {
             align-self: center;
   }
 
+  .footer__icon ~ .footer__icon {
+    margin-left: 25px;
+  }
+
   .footer__menu {
     margin-bottom: 60px;
     -webkit-box-ordinal-group: 0;

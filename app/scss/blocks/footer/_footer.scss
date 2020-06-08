@@ -110,6 +110,7 @@
     }
     &__icon ~ &__icon {
         margin-left: 50px;
+        @include sm(margin-left, 25px);
     }
     &__pic {
         display: block;
