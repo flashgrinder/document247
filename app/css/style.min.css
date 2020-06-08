@@ -62,6 +62,7 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -252,7 +253,6 @@ img {
   position: relative;
   margin: 0;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 .page__container {
