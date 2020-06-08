@@ -56,6 +56,10 @@
                 margin: 0 0 20px 0;
             }
         }
+        ul
+            li ~ li {
+                margin-top: 15px;
+            }
     }
     &__footer {
         width: 100%;
