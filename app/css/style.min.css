@@ -180,7 +180,6 @@ img {
 /* Modal WP */
 
 .modal {
-  display: none;
   padding: 16px 34px 30px;
   background: var(--color-primary) !important;
   max-width: 467px;
