@@ -15,6 +15,7 @@
 
 @font-face {
   font-family: 'Gotham Pro';
+  font-display: swap;
   src: url("../fonts/GothamPro/GothamPro-Bold.eot");
   src: local("../fonts/GothamPro/Gotham Pro Bold"), local("GothamPro-Bold"), url("../fonts/GothamPro/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Bold.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Bold.ttf") format("truetype");
   font-weight: bold;
@@ -23,6 +24,7 @@
 
 @font-face {
   font-family: 'Gotham Pro';
+  font-display: swap;
   src: url("../fonts/GothamPro/GothamPro-Black.eot");
   src: local("../fonts/GothamPro/Gotham Pro Black"), local("GothamPro-Black"), url("../fonts/GothamPro/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Black.ttf") format("truetype");
   font-weight: 900;
@@ -31,6 +33,7 @@
 
 @font-face {
   font-family: 'Gotham Pro';
+  font-display: swap;
   src: url("../fonts/GothamPro/GothamPro-Medium.eot");
   src: local("../fonts/GothamPro/Gotham Pro Medium"), local("GothamPro-Medium"), url("../fonts/GothamPro/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Medium.ttf") format("truetype");
   font-weight: 500;
@@ -39,6 +42,7 @@
 
 @font-face {
   font-family: 'Gotham Pro';
+  font-display: swap;
   src: url("../fonts/GothamPro/GothamPro.eot");
   src: local("../fonts/GothamPro/Gotham Pro"), local("GothamPro"), url("../fonts/GothamPro/GothamPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype");
   font-weight: normal;
@@ -47,6 +51,7 @@
 
 @font-face {
   font-family: 'Roboto';
+  font-display: swap;
   src: url("../fonts/Roboto/Roboto-Regular.eot");
   src: local("../fonts/Roboto/Roboto"), local("Roboto-Regular"), url("../fonts/Roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;

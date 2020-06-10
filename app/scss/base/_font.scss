@@ -1,5 +1,6 @@
 @font-face {
-	font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro';
+    font-display: swap;
 	src: url('../fonts/GothamPro/GothamPro-Bold.eot');
 	src: local('../fonts/GothamPro/Gotham Pro Bold'), local('GothamPro-Bold'),
 		url('../fonts/GothamPro/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
@@ -10,7 +11,8 @@
 }
 
 @font-face {
-	font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro';
+    font-display: swap;
 	src: url('../fonts/GothamPro/GothamPro-Black.eot');
 	src: local('../fonts/GothamPro/Gotham Pro Black'), local('GothamPro-Black'),
 		url('../fonts/GothamPro/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
@@ -21,7 +23,8 @@
 }
 
 @font-face {
-	font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro';
+    font-display: swap;
 	src: url('../fonts/GothamPro/GothamPro-Medium.eot');
 	src: local('../fonts/GothamPro/Gotham Pro Medium'), local('GothamPro-Medium'),
 		url('../fonts/GothamPro/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
@@ -32,7 +35,8 @@
 }
 
 @font-face {
-	font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro';
+    font-display: swap;
 	src: url('../fonts/GothamPro/GothamPro.eot');
 	src: local('../fonts/GothamPro/Gotham Pro'), local('GothamPro'),
 		url('../fonts/GothamPro/GothamPro.eot?#iefix') format('embedded-opentype'),
@@ -45,6 +49,7 @@
 
 @font-face {
     font-family: 'Roboto';
+    font-display: swap;
     src: url('../fonts/Roboto/Roboto-Regular.eot');
     src: local('../fonts/Roboto/Roboto'), local('Roboto-Regular'),
         url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
