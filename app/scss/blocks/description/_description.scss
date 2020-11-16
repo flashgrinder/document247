@@ -42,6 +42,9 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 20px 30px 30px 30px;
+        &_full-wide {
+            width: 100%;
+        }
     }
     &__header {
         margin-bottom: 30px;
